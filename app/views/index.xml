@@ -1,0 +1,142 @@
+<Alloy>
+	<Window class="container">
+
+		<View id="headerView">
+			<ImageView id="headerSignature"></ImageView>
+			<ImageView id="menu"></ImageView>
+		</View>
+		<View id="menuView">
+			<View class="menuItemView">
+				<Label text="News" id="homeItem" class="menuItem"></Label>
+			</View>
+			<View class="menuItemView">
+				<Label text="Scores" id="scoreItem" class="menuItem"></Label>
+			</View>
+			<View class="menuItemView">
+				<Label text="Social" id="socialItem" class="menuItem"></Label>
+			</View>
+
+		</View>
+		<View id="contentView">
+
+			<ScrollView id="socialScrollView">
+
+				<View class="socialView">
+					<View class="imageSocialView">
+						<ImageView id="imageSocial0" class="imageSocial"></ImageView>
+					</View>
+					<Label id="textSocial0" class="textSocial"></Label>
+					<TextArea id="dateSocial0" class="dateSocial"></TextArea>
+				</View>
+				<View class="socialView">
+					<View class="imageSocialView">
+						<ImageView id="imageSocial1" class="imageSocial"></ImageView>
+					</View>
+					<Label id="textSocial1" class="textSocial"></Label>
+					<TextArea id="dateSocial1" class="dateSocial"></TextArea>
+				</View>
+				<View class="socialView">
+					<View class="imageSocialView">
+						<ImageView id="imageSocial2" class="imageSocial"></ImageView>
+					</View>
+					<Label id="textSocial2" class="textSocial"></Label>
+					<TextArea id="dateSocial2" class="dateSocial"></TextArea>
+				</View>
+				<View class="socialView">
+					<View class="imageSocialView">
+						<ImageView id="imageSocial3" class="imageSocial"></ImageView>
+					</View>
+					<Label id="textSocial3" class="textSocial"></Label>
+					<TextArea id="dateSocial3" class="dateSocial"></TextArea>
+				</View>
+
+			</ScrollView>
+			
+			
+			
+			
+			
+			
+			
+			
+			<ScrollView id="scoreView">
+				<View class="scoreView">
+					<View class="scoreTitleView">
+						<Label id="scoreTitle0" class="titleScore"></Label>
+					</View>
+					<TextArea id="scoreContent0" class="summaryScore"></TextArea>
+				</View>
+				<View class="scoreView1">
+					<View class="scoreTitleView">
+						<Label id="scoreTitle1" class="titleScore"></Label>
+					</View>
+					<TextArea id="scoreContent1" class="summaryScore"></TextArea>
+				</View>
+				<View class="scoreView">
+					<View class="scoreTitleView">
+						<Label id="scoreTitle2" class="titleScore"></Label>
+					</View>
+					<TextArea id="scoreContent2" class="summaryScore"></TextArea>
+				</View>
+				<View class="scoreView">
+					<View class="scoreTitleView">
+						<Label id="scoreTitle3" class="titleScore"></Label>
+					</View>
+					<TextArea id="scoreContent3" class="summaryScore"></TextArea>
+				</View>
+
+			</ScrollView>
+			
+			
+			
+			
+			
+			
+			
+			
+			<ScrollView id="scrollView">
+
+				<ScrollableView id="scrollableView" class="scrollableView" showPagingControl="false">
+					<View>
+						<View id="slideShow1" class="slideShowClass">
+							<ImageView id="slideImage1" class="slideshowImage"></ImageView>
+						</View>
+					</View>
+					<View>
+						<View id="slideShow2" class="slideShowClass">
+							<ImageView id="slideImage2" class="slideshowImage"></ImageView>
+						</View>
+					</View>
+					<View>
+						<View id="slideShow3" class="slideShowClass">
+							<ImageView id="slideImage3" class="slideshowImage"></ImageView>
+						</View>
+					</View>
+
+				</ScrollableView>
+				<View id="newsView" class="informationView">
+					<Label id="newsTitle0" class="titleNews"></Label>
+					<TextArea id="newsContent0" class="summaryNews"></TextArea>
+				</View>
+				<View class="informationView">
+					<Label id="newsTitle1" class="titleNews"></Label>
+					<TextArea id="newsContent1" class="summaryNews"></TextArea>
+				</View>
+				<View class="informationView">
+					<Label id="newsTitle2" class="titleNews"></Label>
+					<TextArea id="newsContent2" class="summaryNews"></TextArea>
+				</View>
+				<View class="informationView">
+					<Label id="newsTitle3" class="titleNews"></Label>
+					<TextArea id="newsContent3" class="summaryNews"></TextArea>
+				</View>
+				<View class="informationView">
+					<Label id="newsTitle4" class="titleNews"></Label>
+					<TextArea id="newsContent4" class="summaryNews"></TextArea>
+				</View>
+
+			</ScrollView>
+		</View>
+
+	</Window>
+</Alloy>

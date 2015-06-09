@@ -1,0 +1,260 @@
+".container": {
+	layout: 'vertical',
+	backgroundGradient: {
+		type: 'linear',
+		startPoint: {
+			x: '50%',
+			y: '0%'
+		},
+		endPoint: {
+			x: '50%',
+			y: '100%'
+		},
+		colors: [
+			{
+				color: '#5856D6',
+				offset: 0.0
+			}, {
+				color: '#C644FC',
+				offset: 1.0
+			}
+		]
+	}
+},
+
+
+
+"#headerView":{
+	top: '12dp',
+	height: '60dp',
+	width: Ti.UI.FILL
+},
+
+
+
+"#headerSignature":{
+	width: '115dp',
+	height: Titanium.UI.SIZE,
+	image: '/images/signature.png'
+},
+
+"#menu":{
+	right: '15dp',
+	width: '30dp',
+	height: Ti.UI.SIZE,
+	image: '/images/menu.png'
+},
+
+"#menuView":{
+	height: '0dp',
+	// backgroundColor: 'yellow',
+	layout: 'vertical'
+},
+
+".menuItemView":{
+	height: '60dp',
+	width: Titanium.UI.FILL,
+	top: '30dp'
+},
+
+".menuItem":{
+	font:{
+		fontSize: '30dp',
+		fontFamily: 'OpenSans-Bold'
+	},
+	color: '#fff'
+},
+
+"#scoreView":{
+	height: '0dp',
+	layout: 'vertical'
+},
+
+".scrollableView":{
+	top: '20dp',
+	width: '95%',
+	height: '250dp',
+	backgroundColor: '#F7F7F7',
+	borderRadius: '20dp',
+	borderWidth: '3dp',
+	borderColor: '#F7F7F7'
+},
+
+
+".slideShowClass":{
+	height: '500dp',
+	width: '500dp',
+	backgroundColor: 'yellow'
+},
+
+".slideshowImage":{
+	height: '500dp'
+},
+
+
+//
+//		v--- News Style ---v
+//
+
+"#scrollView":{
+	layout: 'vertical'
+},
+
+".informationView":{
+	top: '20dp',
+	width: '95%',
+	height: '250dp',
+	backgroundColor: '#F7F7F7',
+	borderRadius: '20dp',
+	layout: 'vertical'
+},
+
+".titleNews":{
+	top: '20dp',
+	width: '90%',
+	font:{
+		fontSize: '20dp',
+		fontFamily: 'OpenSans-Bold'
+	},
+	color: '#1F1F21',
+	text: 'Halep battles back to claim Indian Wells crown'
+},
+
+".summaryNews":{
+	top: '10dp',
+	height: '125dp',
+	width: '90%',
+	editable: false,
+	backgroundColor: '#F7F7F7',
+	font:{
+		fontSize: '12dp',
+		fontFamily: 'OpenSans'
+	},
+	color: '#1F1F21',
+	scrollable: false,
+	value: 'Simona Halep won the BNP Paribas title with a 2-6 7-5 6-4 victory over former world number one Jelena Jankovic in a pulsating final at Indian Wells on Sunday. Serbian Jankovic was serving for the title at 5-4 in the second set but world number three Halep won the next three games and battled back for the biggest title of her'
+},
+
+//
+//		v--- Score Style ---v
+//
+
+".scoreView":{
+	top: '20dp',
+	width: '95%',
+	height: '250dp',
+	backgroundColor: '#F7F7F7',
+	borderRadius: '20dp',
+	borderColor: '#FF3A2D',
+	borderWidth: '3dp',
+	backgroundColor: '#F7F7F7',
+	layout: 'vertical'
+},
+
+".scoreView1":{
+	top: '20dp',
+	width: '95%',
+	height: '250dp',
+	backgroundColor: '#F7F7F7',
+	borderRadius: '20dp',
+	borderColor: '#FF3A2D',
+	borderWidth: '3dp',
+	backgroundColor: '#F7F7F7',
+	layout: 'vertical'
+},
+
+
+".titleScore":{
+	top: '20dp',
+	width: '90%',
+	font:{
+		fontSize: '20dp',
+		fontFamily: 'OpenSans-Bold'
+	},
+	color: '#1F1F21',
+	textAlign: 'center',
+	text: 'Simona Halep \nNicole Vaidišová'
+	
+},
+
+".summaryScore":{
+	top: '10dp',
+	height: '125dp',
+	width: '90%',
+	editable: false,
+	backgroundColor: '#F7F7F7',
+	font:{
+		fontSize: '20dp',
+		fontFamily: 'OpenSans'
+	},
+	textAlign: 'center',
+	color: '#1F1F21',
+	scrollable: false,
+	value: '6 - 4 \n2 - 6 \n6 - 1'
+},
+
+
+//
+//		v--- Social Style ---v
+//
+
+"#socialScrollView":{
+	height: '0dp',
+	layout: 'vertical'
+},
+
+".socialView":{
+	top: '20dp',
+	width: '95%',
+	height: '250dp',
+	backgroundColor: '#F7F7F7',
+	borderRadius: '20dp',
+	backgroundColor: '#F7F7F7',
+	layout: 'vertical'
+},
+
+".imageSocialView":{
+	height: '120dp',
+	width: '500dp',
+	backgroundColor: 'yellow'
+},
+
+".imageSocial":{
+	height: '250dp',
+	image: 'http://i.imgur.com/ittbHoQ.jpg'
+},
+
+".textSocial":{
+	top: '20dp',
+	width: '90%',
+	font:{
+		fontSize: '12dp',
+		fontFamily: 'OpenSans-Bold'
+	},
+	color: '#1F1F21',
+	textAlign: 'center',
+	text: 'Simona Halep def. Sloane Stephens 6-1 7-5!!! Simona advances and will face Serena Williams in the Semifinal of Miami Open! ‪#‎TeamHalep‬ ‪#‎HalepMania‬'
+},
+
+".dateSocial":{
+	top: '10dp',
+	height: '125dp',
+	width: '90%',
+	editable: false,
+	backgroundColor: '#F7F7F7',
+	font:{
+		fontSize: '12dp',
+		fontFamily: 'OpenSans'
+	},
+	textAlign: 'center',
+	color: '#1F1F21',
+	scrollable: false,
+	value: 'April 2 at 3:33am'
+},
+
+
+
+
+
+
+
