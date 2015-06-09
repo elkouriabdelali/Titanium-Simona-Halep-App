@@ -15,7 +15,7 @@ Demo
 ------------
 You can download it and take the app for a spin to see how responsive and snappy Alloy is on both Android and iOS or you can just look at these pretty screenshots.
 
-<img src="http://i.imgur.com/Y2CLnph.png" />
-<img src="http://i.imgur.com/cOHDSBw.png" />
-<img src="http://i.imgur.com/Ztko4TN.png" />
-<img src="http://i.imgur.com/MwVo5uE.png" />
+<img src="http://i.imgur.com/Y2CLnph.png" width="300" />
+<img src="http://i.imgur.com/cOHDSBw.png" width="300" />
+<img src="http://i.imgur.com/Ztko4TN.png" width="300" />
+<img src="http://i.imgur.com/MwVo5uE.png" width="300" />
